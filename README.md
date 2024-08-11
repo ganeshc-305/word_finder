@@ -16,7 +16,7 @@ To use this application locally, follow these steps:
 bash
 Copy code
 git clone https://github.com/your-username/advanced-word-finder.git
-cd advanced-word-finder
+cd word_finder
 2. Open the Project
 Open the index.html file in your preferred web browser.
 
@@ -49,4 +49,4 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any questions or feedback, please contact your-email@example.com.
+For any questions or feedback, please contact ganeshcitcs2023@gmail.com
