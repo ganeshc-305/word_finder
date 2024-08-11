@@ -1,96 +1,65 @@
 Advanced Word Finder
 
-Overview
+Overview: 
 
-Advanced Word Finder is a web application designed to help users search for specific words within a given paragraph of text. The application highlights the occurrences of the word and displays their positions within the paragraph. It features a toggle switch for switching between light and dark themes, and a "Refresh" button to update the search results dynamically.
+A web application for finding and highlighting words in a paragraph. Features include live word highlighting, case sensitivity toggle, theme switch, and search refresh.
 
-Features
+Features:
 
-Live Word Highlighting: Automatically highlights occurrences of a specified word within a paragraph.
+1. Live Word Highlighting: Highlights occurrences of the specified word.
 
-Word Count and Positions: Displays the count of the word occurrences and their positions in the paragraph.
+2. Word Count and Positions: Shows the number of occurrences and their positions.
 
-Case Sensitivity Toggle: Allows users to choose whether the search is case-sensitive or not.
+3. Case Sensitivity Toggle: Option to make searches case-sensitive.
 
-Theme Toggle: Switch between light and dark themes using a toggle switch.
+4. Theme Toggle: Switch between light and dark modes.
 
-Refresh Button: Updates the search results when clicked, ensuring the latest changes are reflected.
+5. Refresh Button: Update search results.
 
-Clear Button: Resets all inputs and results to their default state.
+6. Clear Button: Reset inputs and results.
 
-Getting Started
+Getting Started:
 
-To use this application locally, follow these steps:
+1. Clone the Repository:
 
+Clone the repository using the following command:
 
-1. Clone the Repository
-   
-bash
+git clone https://github.com/ganeshc-305/word_finder.git
 
-Copy code
-
-git clone https://github.com/your-username/advanced-word-finder.git
+Then navigate into the project directory:
 
 cd word_finder
 
-3. Open the Project
+2. Open the Project:
 
-Open the index.html file in your preferred web browser.
+Open index.html in your web browser.
 
+Usage:
 
-5. Explore the Application
+   Enter a paragraph in the textarea.
 
-Enter a paragraph into the textarea.
+   Type the word you want to search for.
 
-Type a word you want to find in the search input.
+   Toggle case sensitivity as needed.
 
-Choose case sensitivity if needed.
+   Click "Refresh Search" to update the search results.
 
-Click the "Refresh Search" button to see the updated search results.
+   Use the "Clear" button to reset all inputs and results.
 
-Use the "Clear" button to reset all inputs and results.
+   Toggle the "Dark Mode" switch to change the theme.
 
-Toggle the "Dark Mode" switch to switch between light and dark themes.
+Project Structure:
 
-Project Structure
+   index.html - Main HTML file
 
-index.html: The main HTML file containing the structure of the application.
+   styles.css - CSS for styling
 
-styles.css: The CSS file for styling the application, including light and dark themes.
+   script.js - JavaScript for functionality
 
-script.js: The JavaScript file that handles the application's logic, including word highlighting, theme switching, and button functionality.
-
-Example
-
-Here is an example of how the application works:
-
-
-Enter the following paragraph into the textarea:
-
-swift
-
-Copy code
-
-The quick brown fox jumps over the lazy dog. The fox is quick and agile.
-
-Enter the word "fox" in the search input.
-
-Check or uncheck the case sensitivity box.
-
-Click the "Refresh Search" button to update the highlights and word information.
-
-Toggle the "Dark Mode" switch to change the theme of the application.
-
-Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
-
-
-License
+License:
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+Contact:
 
-Contact
-
-For any questions or feedback, please contact ganeshcitcs2023@gmail.com
+For questions or feedback, email ganeshcitcs2023@gmail.com
